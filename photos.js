@@ -39,22 +39,13 @@ const PORTFOLIO_PHOTOS = [
     "id": "05",
     "title": "Google Pixel 9",
     "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 3072\u00d71728 \u00b7 1/100s \u00b7 ISO 22",
-    "src": "assets/web/GrainCamera_20260304-222838.jpg",
-    "wide": true,
-    "tone": "tone-1"
-  },
-  {
-    "id": "06",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3072\u00d73072 \u00b7 1/30s \u00b7 ISO 38",
     "src": "assets/web/GrainCamera_20260410-125313.jpg",
     "wide": false,
     "tone": "tone-2"
   },
   {
-    "id": "07",
+    "id": "06",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3072\u00d71728 \u00b7 1/30s \u00b7 ISO 332",
@@ -63,7 +54,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "08",
+    "id": "07",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 6.9mm \u00b7 f/1.7 \u00b7 1/35s \u00b7 ISO 453",
@@ -72,16 +63,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "09",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 2884\u00d72884 \u00b7 6.9mm \u00b7 f/1.7 \u00b7 1/90s \u00b7 ISO 22",
-    "src": "assets/web/LRM_20250906_121941.jpg",
-    "wide": false,
-    "tone": "tone-1"
-  },
-  {
-    "id": "10",
+    "id": "08",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 4080\u00d72040 \u00b7 6.9mm \u00b7 f/1.7 \u00b7 1/400s \u00b7 ISO 25",
@@ -90,7 +72,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "11",
+    "id": "09",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2040\u00d74080 \u00b7 6.9mm \u00b7 f/1.7 \u00b7 1/2000s \u00b7 ISO 25",
@@ -99,7 +81,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "12",
+    "id": "10",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2040\u00d72040 \u00b7 6.9mm \u00b7 f/1.7 \u00b7 1/4s \u00b7 ISO 999",
@@ -108,16 +90,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "13",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 901\u00d7507",
-    "src": "assets/web/IMG-20260413-WA0002.jpg",
-    "wide": true,
-    "tone": "tone-1"
-  },
-  {
-    "id": "14",
+    "id": "11",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 1318\u00d71027 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/640s \u00b7 ISO 22",
@@ -126,7 +99,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "15",
+    "id": "12",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d74064 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/530s \u00b7 ISO 22",
@@ -135,7 +108,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "16",
+    "id": "13",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/90s \u00b7 ISO 22",
@@ -144,7 +117,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "17",
+    "id": "14",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2411\u00d72412 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/450s \u00b7 ISO 30",
@@ -153,16 +126,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-1"
   },
   {
-    "id": "18",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 3008\u00d73008 \u00b7 12mm \u00b7 f/1.7 \u00b7 1/800s \u00b7 ISO 56",
-    "src": "assets/web/PXL_20251020_043732051.RAW-02.ORIGINAL.jpg",
-    "wide": false,
-    "tone": "tone-2"
-  },
-  {
-    "id": "19",
+    "id": "15",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 1520\u00d71520 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/20s \u00b7 ISO 1410",
@@ -171,7 +135,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "20",
+    "id": "16",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/100s \u00b7 ISO 39",
@@ -180,7 +144,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "21",
+    "id": "17",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/2800s \u00b7 ISO 22",
@@ -189,7 +153,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-1"
   },
   {
-    "id": "22",
+    "id": "18",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/55s \u00b7 ISO 289",
@@ -198,7 +162,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "23",
+    "id": "19",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/50s \u00b7 ISO 24",
@@ -207,7 +171,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "24",
+    "id": "20",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2761\u00d72760 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/17s \u00b7 ISO 117",
@@ -216,7 +180,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "25",
+    "id": "21",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2752\u00d72751 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/50s \u00b7 ISO 322",
@@ -225,7 +189,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-1"
   },
   {
-    "id": "26",
+    "id": "22",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 756\u00d7755 \u00b7 12mm \u00b7 f/1.7 \u00b7 1/2000s \u00b7 ISO 56",
@@ -234,7 +198,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "27",
+    "id": "23",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2387\u00d71342 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/1100s \u00b7 ISO 22",
@@ -243,7 +207,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "28",
+    "id": "24",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/120s \u00b7 ISO 22",
@@ -252,16 +216,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "29",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 1526\u00d71526 \u00b7 12mm \u00b7 f/1.7 \u00b7 1/25s \u00b7 ISO 151",
-    "src": "assets/web/PXL_20260228_105513064.RAW-02.ORIGINAL.jpg",
-    "wide": false,
-    "tone": "tone-1"
-  },
-  {
-    "id": "30",
+    "id": "25",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 4064\u00d72286 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/370s \u00b7 ISO 22",
@@ -270,7 +225,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "31",
+    "id": "26",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 1146\u00d71528 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/1050s \u00b7 ISO 22",
@@ -279,7 +234,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "32",
+    "id": "27",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 4064\u00d72286 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/250s \u00b7 ISO 36",
@@ -288,7 +243,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "33",
+    "id": "28",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3072\u00d73072 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/100s \u00b7 ISO 505",
@@ -297,16 +252,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-1"
   },
   {
-    "id": "34",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 3072\u00d73072 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/280s \u00b7 ISO 43",
-    "src": "assets/web/PXL_20260809_100343503.PORTRAIT.jpg",
-    "wide": false,
-    "tone": "tone-2"
-  },
-  {
-    "id": "35",
+    "id": "29",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2144\u00d72145 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/950s \u00b7 ISO 22",
@@ -315,7 +261,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "36",
+    "id": "30",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2747\u00d71373 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/90s \u00b7 ISO 63",
@@ -324,7 +270,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "37",
+    "id": "31",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/35s \u00b7 ISO 385",
@@ -333,7 +279,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-1"
   },
   {
-    "id": "38",
+    "id": "32",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/500s \u00b7 ISO 705",
@@ -342,7 +288,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "39",
+    "id": "33",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2676\u00d72676 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/60s \u00b7 ISO 168",
@@ -351,7 +297,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-3"
   },
   {
-    "id": "40",
+    "id": "34",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3055\u00d73056 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/15s \u00b7 ISO 705",
@@ -360,16 +306,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "41",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 3055\u00d71719 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/1800s \u00b7 ISO 22",
-    "src": "assets/web/PXL_20261031_023938808.RAW-02.ORIGINAL.jpg",
-    "wide": true,
-    "tone": "tone-1"
-  },
-  {
-    "id": "42",
+    "id": "35",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 2032\u00d71524 \u00b7 12mm \u00b7 f/1.7 \u00b7 1/350s \u00b7 ISO 56",
@@ -378,16 +315,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-2"
   },
   {
-    "id": "43",
-    "title": "Google Pixel 9",
-    "gear": "pixel9",
-    "meta": "Google Pixel 9 \u00b7 3056\u00d73056 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/120s \u00b7 ISO 369",
-    "src": "assets/web/PXL_20261108_150426683.RAW-02.ORIGINAL.jpg",
-    "wide": false,
-    "tone": "tone-3"
-  },
-  {
-    "id": "44",
+    "id": "36",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 3416\u00d71707 \u00b7 49mm \u00b7 f/1.7 \u00b7 1/25s \u00b7 ISO 705",
@@ -396,7 +324,7 @@ const PORTFOLIO_PHOTOS = [
     "tone": "tone-4"
   },
   {
-    "id": "45",
+    "id": "37",
     "title": "Google Pixel 9",
     "gear": "pixel9",
     "meta": "Google Pixel 9 \u00b7 4119\u00d72316 \u00b7 24mm \u00b7 f/1.7 \u00b7 1/50s \u00b7 ISO 2399",
