@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rit Kumar — Photography (@rit.krs)</title>
+  <meta name="description" content="Selected works by Rit Kumar (@rit.krs). Shot on Google Pixel 9 and Fujifilm X-M5." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-white">
+  <!-- Delicate Viewfinder Corner Marks (Dondre Green inspired) -->
+  <div class="crop-marks" aria-hidden="true">
+    <span class="cm tl"></span>
+    <span class="cm tr"></span>
+    <span class="cm bl"></span>
+    <span class="cm br"></span>
+  </div>
+
+  <!-- Quiet Split Header (Josh K. Jackson inspired) -->
+  <header class="site-header">
+    <a href="#top" class="brand">Rit Kumar</a>
+
+    <nav class="desktop-nav" aria-label="Primary">
+      <a href="#work" class="nav-link active" data-filter="all">Selected Works</a>
+      <a href="#work" class="nav-link" data-filter="pixel9">Pixel 9</a>
+      <a href="#work" class="nav-link" data-filter="xm5">Fujifilm X-M5</a>
+      <button type="button" id="info-open-btn" class="nav-btn">Information</button>
+      <a href="https://www.instagram.com/rit.krs/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">@rit.krs</a>
+    </nav>
+
+    <button type="button" id="menu-open-btn" class="mobile-menu-btn">Menu</button>
+  </header>
+
+  <main id="top">
+    <!-- Single Quiet Editorial Line -->
+    <section class="statement">
+      <h1>
+        Photography: one year of <em>My Life in Pixel</em>, now through the <em>Fujifilm X-M5</em>.
+      </h1>
+    </section>
+
+    <!-- Opening Full-Width Feature Plate (Alex Strohl / Todd Hido scale) -->
+    <section class="hero-plate" id="hero-plate" role="button" tabindex="0" aria-label="Open featured plate">
+      <div class="plate-surface tone-1">
+        <img id="hero-img" src="" alt="" class="hidden" />
+        <span class="plate-index">01</span>
+        <div class="golden-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tight, Unadorned Gallery Grid (Josh K. Jackson inspired) -->
+    <section class="gallery-wrap" id="work">
+      <div class="photo-grid" id="photo-grid">
+        <!-- Populated cleanly by app.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Quiet Bottom Studio Bar (Dondre Green inspired) -->
+  <footer class="studio-bar">
+    <button type="button" id="theme-cycle-btn" class="studio-btn">Theme: Gallery White</button>
+    <button type="button" id="grid-toggle-btn" class="studio-btn" aria-pressed="false">Golden Grid [G]</button>
+    <span class="studio-clock" id="studio-clock">IST</span>
+  </footer>
+
+  <!-- Information / About Overlay (Dondre Green fullscreen menu feel) -->
+  <div id="info-overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-label="Information">
+    <div class="overlay-inner">
+      <div class="overlay-top">
+        <span>Rit Kumar — @rit.krs</span>
+        <button type="button" id="info-close-btn" class="studio-btn">Close [Esc]</button>
+      </div>
+
+      <div class="overlay-body">
+        <div class="overlay-col">
+          <p class="overlay-lead">
+            “They say photography changes how you see the world. The funny part?
+            I’ve stared at the Golden Grid so long that I now see those yellow lines everywhere.”
+          </p>
+          <p class="overlay-copy">
+            Shooting street cats, cars, light, and geometry. Started with a Google Pixel 9
+            for a year (<em>My Life in Pixel</em>), recently moved to a Fujifilm X-M5.
+          </p>
+          <p class="overlay-copy muted">
+            Warning: May spontaneously talk about cars.
+          </p>
+        </div>
+
+        <div class="overlay-col links-col">
+          <a href="#work" class="overlay-link" data-overlay-filter="all">Selected Works</a>
+          <a href="#work" class="overlay-link" data-overlay-filter="pixel9">Pixel 9 Archive</a>
+          <a href="#work" class="overlay-link" data-overlay-filter="xm5">Fujifilm X-M5</a>
+          <a href="https://www.instagram.com/rit.krs/" target="_blank" rel="noopener noreferrer" class="overlay-link">Instagram ↗</a>
+          <a href="https://www.threads.net/@rit.krs" target="_blank" rel="noopener noreferrer" class="overlay-link">Threads ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden file input for testing local photos in any plate -->
+  <input type="file" id="local-file-input" accept="image/*" hidden />
+
+  <!-- Silent Gallery Lightbox -->
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Photograph view">
+    <div class="lb-backdrop" id="lb-backdrop"></div>
+    <div class="lb-content">
+      <div class="lb-header">
+        <span id="lb-counter" class="lb-mono">01 / 12</span>
+        <div class="lb-actions">
+          <button type="button" id="lb-load-btn" class="studio-btn">Load local photo</button>
+          <button type="button" id="lb-grid-btn" class="studio-btn">Grid [G]</button>
+          <button type="button" id="lb-close-btn" class="studio-btn">Close [Esc]</button>
+        </div>
+      </div>
+
+      <div class="lb-stage">
+        <button type="button" id="lb-prev" class="lb-nav" aria-label="Previous">←</button>
+        <div class="lb-media-box">
+          <img id="lb-img" src="" alt="" class="hidden" />
+          <div id="lb-empty" class="lb-empty">
+            <span id="lb-empty-num">01</span>
+          </div>
+          <div class="golden-grid" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <button type="button" id="lb-next" class="lb-nav" aria-label="Next">→</button>
+      </div>
+
+      <div class="lb-footer">
+        <span id="lb-title" class="lb-title"></span>
+        <span id="lb-meta" class="lb-mono"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="photos.js?v=323"></script>
+  <script src="app.js"></script>
+</body>
+</html>

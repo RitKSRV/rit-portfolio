@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rit Kumar — Design 2 (@rit.krs)</title>
+  <meta name="description" content="Full-bleed photography slideshow by Rit Kumar (@rit.krs)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="design2.css" />
+</head>
+<body class="d2-dark">
+  <!-- Top Corner UI -->
+  <header class="fs-top">
+    <div class="fs-brand">
+      <span>Rit Kumar</span>
+      <a href="https://www.instagram.com/rit.krs/" target="_blank" rel="noopener noreferrer">@rit.krs</a>
+    </div>
+
+    <nav class="fs-nav" aria-label="Filter">
+      <button type="button" class="fs-btn active" data-gear="all">All</button>
+      <button type="button" class="fs-btn" data-gear="pixel9">Pixel 9</button>
+      <button type="button" class="fs-btn" data-gear="xm5">X-M5</button>
+      <span class="fs-sep">/</span>
+      <button type="button" id="fs-index-btn" class="fs-btn">Index</button>
+      <a href="index.html" class="fs-btn">Design 01 ↗</a>
+    </nav>
+  </header>
+
+  <!-- Full-Bleed Single-Photo Stage -->
+  <main class="fs-stage" id="fs-stage">
+    <div class="fs-slide">
+      <img id="fs-img" src="" alt="" />
+      <div class="fs-golden-grid" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <!-- Invisible Left / Right Click Zones -->
+    <button type="button" id="fs-prev-zone" class="fs-zone prev" aria-label="Previous photograph"></button>
+    <button type="button" id="fs-next-zone" class="fs-zone next" aria-label="Next photograph"></button>
+  </main>
+
+  <!-- Bottom Corner UI -->
+  <footer class="fs-bottom">
+    <div class="fs-caption">
+      <span id="fs-counter" class="fs-mono">01 / 32</span>
+      <span id="fs-title" class="fs-title"></span>
+      <span id="fs-meta" class="fs-mono"></span>
+    </div>
+
+    <div class="fs-controls">
+      <button type="button" id="fs-prev-btn" class="fs-btn" aria-label="Previous">←</button>
+      <button type="button" id="fs-next-btn" class="fs-btn" aria-label="Next">→</button>
+      <span class="fs-sep">/</span>
+      <button type="button" id="fs-grid-btn" class="fs-btn" aria-pressed="false">Grid [G]</button>
+      <button type="button" id="fs-theme-btn" class="fs-btn">White</button>
+    </div>
+  </footer>
+
+  <!-- Thumbnail Index Overlay -->
+  <div id="fs-index-overlay" class="fs-overlay hidden" role="dialog" aria-modal="true" aria-label="All photographs">
+    <div class="fs-overlay-top">
+      <span class="fs-mono">Index — <span id="fs-overlay-count">32</span> Frames</span>
+      <button type="button" id="fs-index-close" class="fs-btn">Close [Esc]</button>
+    </div>
+    <div class="fs-thumb-grid" id="fs-thumb-grid"></div>
+  </div>
+
+  <script src="photos.js?v=323"></script>
+  <script src="design2.js"></script>
+</body>
+</html>

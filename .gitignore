@@ -1,0 +1,4 @@
+# Keep raw 1.3GB originals local
+assets/photos/
+assets/web/
+.DS_Store

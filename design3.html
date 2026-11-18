@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rit Kumar — Design 3 (@rit.krs)</title>
+  <meta name="description" content="Rit Kumar (@rit.krs) — Photography portfolio inspired by Dondré Green." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="design3.css" />
+</head>
+<body class="d3-black">
+  <!-- 4 Viewport Viewfinder Crop Marks -->
+  <div class="d3-brackets" aria-hidden="true">
+    <span class="b tl"></span>
+    <span class="b tr"></span>
+    <span class="b bl"></span>
+    <span class="b br"></span>
+  </div>
+
+  <!-- Fixed Minimal Top Chrome -->
+  <header class="d3-top">
+    <a href="#top" class="d3-logo">
+      <span>RIT</span>
+      <span>KUMAR</span>
+    </a>
+
+    <div class="d3-top-right">
+      <button type="button" id="d3-grid-btn" class="d3-hud-btn" aria-pressed="false">GRID [G]</button>
+      <button type="button" id="d3-menu-btn" class="d3-hud-btn">MENU</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero: Giant Display Typography + Horizontal Thumbnail Strip -->
+    <section class="d3-hero">
+      <div class="d3-hero-type" aria-hidden="true">
+        <span>RIT</span>
+        <span>KUMAR</span>
+      </div>
+
+      <p class="d3-hero-sub">
+        MY LIFE IN PIXEL 9 &amp; FUJIFILM X-M5 — <em>@RIT.KRS</em>
+      </p>
+
+      <div class="d3-carousel" id="d3-carousel" aria-label="Featured strip">
+        <!-- Populated by design3.js -->
+      </div>
+    </section>
+
+    <!-- Single-Column Centered Photography Sequence with [ ] Brackets & Flanking Type -->
+    <section class="d3-sequence-wrap" id="work">
+      <div class="d3-flank left" aria-hidden="true">PHOTO</div>
+      <div class="d3-flank right" aria-hidden="true">GRAPHER</div>
+
+      <div class="d3-sequence-filters">
+        <button type="button" class="d3-filter active" data-gear="all">[ ALL ]</button>
+        <button type="button" class="d3-filter" data-gear="pixel9">[ PIXEL 9 ]</button>
+        <button type="button" class="d3-filter" data-gear="xm5">[ FUJIFILM X-M5 ]</button>
+      </div>
+
+      <div class="d3-sequence" id="d3-sequence">
+        <!-- Populated by design3.js -->
+      </div>
+    </section>
+
+    <!-- Quiet Closing Bio Block -->
+    <section class="d3-about" id="about">
+      <p class="d3-quote">
+        “They say photography changes how you see the world. The funny part?
+        I’ve stared at the Golden Grid so long that I now see those yellow lines everywhere.”
+      </p>
+      <p class="d3-bio-line">WARNING: MAY SPONTANEOUSLY TALK ABOUT CARS.</p>
+      <div class="d3-about-links">
+        <a href="https://www.instagram.com/rit.krs/" target="_blank" rel="noopener noreferrer">[ INSTAGRAM @RIT.KRS ↗ ]</a>
+        <a href="https://www.threads.net/@rit.krs" target="_blank" rel="noopener noreferrer">[ THREADS ↗ ]</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fixed Bottom Studio Bar -->
+  <footer class="d3-bottom">
+    <button type="button" id="d3-theme-btn" class="d3-hud-btn">CHANGE THEME</button>
+    <span class="d3-role">PIXEL 9 · FUJIFILM X-M5</span>
+    <span class="d3-clock" id="d3-clock">00:00AM (GMT+5:30) • IN</span>
+  </footer>
+
+  <!-- Fullscreen Dark Glass Menu Overlay -->
+  <div id="d3-menu-overlay" class="d3-menu-overlay hidden" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="d3-menu-top">
+      <span class="d3-hud-label">RIT KUMAR · @RIT.KRS</span>
+      <button type="button" id="d3-menu-close" class="d3-hud-btn">CLOSE [ESC]</button>
+    </div>
+
+    <div class="d3-menu-links">
+      <a href="#work" class="d3-big-link" data-menu-filter="all">WORK</a>
+      <a href="#work" class="d3-big-link" data-menu-filter="pixel9">PIXEL 9</a>
+      <a href="#work" class="d3-big-link" data-menu-filter="xm5">FUJIFILM X-M5</a>
+      <a href="#about" class="d3-big-link" id="d3-menu-info">INFO</a>
+    </div>
+
+    <div class="d3-menu-footer">
+      <a href="https://www.instagram.com/rit.krs/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+      <a href="https://www.threads.net/@rit.krs" target="_blank" rel="noopener noreferrer">THREADS ↗</a>
+      <a href="index.html">DESIGN 01 ↗</a>
+      <a href="design2.html">DESIGN 02 ↗</a>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="d3-lightbox" class="d3-lightbox hidden" role="dialog" aria-modal="true" aria-label="Photograph">
+    <div class="d3-lb-bg" id="d3-lb-bg"></div>
+    <div class="d3-lb-box">
+      <div class="d3-lb-bar">
+        <span id="d3-lb-count" class="d3-hud-label">01 / 32</span>
+        <div class="d3-lb-btns">
+          <button type="button" id="d3-lb-grid" class="d3-hud-btn">GRID [G]</button>
+          <button type="button" id="d3-lb-close" class="d3-hud-btn">CLOSE [ESC]</button>
+        </div>
+      </div>
+
+      <div class="d3-lb-stage">
+        <button type="button" id="d3-lb-prev" class="d3-lb-arrow" aria-label="Previous">←</button>
+        <div class="d3-lb-frame">
+          <img id="d3-lb-img" src="" alt="" />
+          <div class="d3-golden-grid" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        </div>
+        <button type="button" id="d3-lb-next" class="d3-lb-arrow" aria-label="Next">→</button>
+      </div>
+
+      <div class="d3-lb-cap">
+        <span id="d3-lb-title" class="d3-italic"></span>
+        <span id="d3-lb-meta" class="d3-hud-label"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="photos.js?v=323"></script>
+  <script src="design3.js"></script>
+</body>
+</html>
