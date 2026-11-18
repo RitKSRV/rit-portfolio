@@ -1,4 +1,3 @@
-# Keep raw 1.3GB originals local
+# Keep raw originals local; the live site serves assets/web/
 assets/photos/
-assets/web/
 .DS_Store
